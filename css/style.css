@@ -461,10 +461,6 @@ section{
 
 /*BREAK POINT*/
 @media (max-width: 1640px){
-    #home-info{
-        height: 40vh;
-        margin-left: 1rem;
-    }
     .tab-contents{
         height: 40vh;
         line-height: 24px;
