@@ -78,7 +78,7 @@ section{
 }
 .home-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
@@ -98,7 +98,6 @@ section{
 }
 #home-info{
     height: 50vh;
-    margin-left: 2rem;
 }
 #home-info h3 {
     font-size: 2.2rem;
@@ -465,10 +464,6 @@ section{
 }
 /*BREAK POINT*/
 @media (max-width: 1640px){
-<<<<<<< HEAD
-   
-=======
->>>>>>> 9b410857a5c0ac55a297d4c2dd10a3fb9bb3f5f6
     .tab-contents{
         height: 40vh;
         line-height: 24px;
