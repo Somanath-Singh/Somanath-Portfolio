@@ -531,7 +531,17 @@ section{
         min-width: 100%;
     }
     #home-info{
+        height: 50vh;
         text-align: center;
+        order: 2;
+    }
+    #home-img{
+        order: 1;
+       } 
+    .about-img img{
+        width: 80vw;
+        margin-top: 1rem;
+        transform: scale(.8);
     }
         #home-info h3 {
             font-size: 3.2rem;
@@ -539,13 +549,7 @@ section{
     
         #home-info h1 {
             font-size: 4.2rem;
-        }
-       #home-info{
-        order: 2;
-       } 
-       #home-img{
-        order: 1;
-       } 
+        }    
     .navbar{
         position: absolute;
         top: 100%;
@@ -570,11 +574,6 @@ section{
         flex-direction: column;
         min-width: 100%;
     }
-    .about-img img{
-        width: 50vw;
-        margin-top: 2rem;
-        transform: scale(.8);
-    }
     .about-content{
         min-width: 100%;
     }
@@ -598,19 +597,11 @@ section{
     }
 }
 @media (max-width: 617px){
-    .cerificates-container{
-        grid-template-columns: 1fr;
-    }
-    .portfolio-container{
-        grid-template-columns: 1fr;
-    }
     #home-info{
-        height: 50vh;
+        height: 40vh;
     }
-    .about-img img{
-        width: 80vw;
-        margin-top: 1rem;
-        transform: scale(.8);
+    .cerificates-container,.portfolio-container{
+        grid-template-columns: 1fr;
     }
     .social-media a {
         width: 4rem;
@@ -643,16 +634,22 @@ section{
     }
 }
 @media (max-width: 450px){
-    html{
-        font-size: 50%;
-    }
      #home-info{
-        height: 40vh;
+        height: 45vh;
     }
-    .tab-contents{
+}
+@media (max-width: 425px){
+     #home-info{
         height: 35vh;
     }
-    .contact div{
-        text-align: center;
+}
+@media (max-width: 375px){
+     #home-info{
+        height: 45vh;
+    }
+    .tab-contents{
+        height: 40vh;
+        line-height: 18px;
+        letter-spacing: 0.5px;
     }
 }
